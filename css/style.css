@@ -1,0 +1,20 @@
+canvas {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.button {
+  display: none;
+  position: absolute;
+  top: 360px;
+  right: calc(50% - 75px);
+  font-weight: 900;
+  width: 150px;
+  min-height: 30px;
+  color: blue;
+}
+
+.button_show {
+  display: block;
+}
